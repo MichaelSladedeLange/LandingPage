@@ -1,0 +1,193 @@
+html{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: black;
+}
+
+body{
+  margin:0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.flex_container_1{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.gotobutton{
+  border: 1px solid #ffffffa5;
+  border-radius: 10%;
+  text-align: center;
+  align-items: center;
+  width: 100px;
+  margin: 0  auto 0 auto;
+  opacity: 0;
+  animation: fadein 3s ease-in 1s 1;
+  animation-fill-mode: forwards;
+}
+.gotobutton:hover{
+  background-color: #16c79a;
+  opacity: 0;
+  animation: fadein 3s ease-in 1s 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadein {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.head2{
+  color:white;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.flex_1{
+  padding: 50px;
+}
+
+.containter{
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.spinner_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round{
+  position: relative;
+  border: 1px solid #ffffffa5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head{
+  color:white;
+  font-family: 'Comfortaa', cursive;
+  font-size: 3rem;
+  text-align: center;
+
+}
+
+.ring_5{
+  width: 500px;
+  height: 500px;
+  animation: spin 10s linear 0.5s infinite;
+}
+.ring_4{
+  width: 400px;
+  height: 400px;
+  animation: spin 10s linear 0.5s infinite;
+}
+.ring_3{
+  width: 300px;
+  height: 300px;
+  animation: spin 20s linear 0.5s infinite;
+}
+.ring_2{
+  width: 200px;
+  height: 200px;
+  animation: spin 20s linear 0.5s infinite;
+}
+.ring_1{
+  width: 100px;
+  height: 100px;
+  animation: spin 20s linear 0.5s infinite;
+}
+.planet{
+  position: absolute;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3ff9dc;
+}
+.suborbit{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    top: -25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #ffffffa5;
+  background-color: black;
+    animation: spin 5s linear 1s infinite;
+}
+
+.subcenter{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3ff9dc;
+  top:30%;
+  right:30%;
+}
+
+.subplanet{
+  position: absolute;
+  top:-5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.sp_1{
+    background-color: #487e95;
+}
+
+.scp_1{
+  background-color: #91684a;
+}
+
+.no_5{
+
+}
+.no_4{
+  background-color: #ffcc29;
+}
+.no_3{
+  background-color: #f1aa9b;
+}
+.no_2{
+  background-color: #e8eae6;
+}
+.center{
+  top:22%;
+  height: 60px;
+  width: 60px;
+  background-color: #fdffbc;
+  animation: sun 5s linear infinite alternate;
+
+}
+
+@keyframes spin{
+  from{transform: rotate(0);}
+  to{transform: rotate(360deg);}
+}
+
+@keyframes sun {
+  from{  background-color: #fdffbc; }
+  to{background-color: #ef4f4f;}
+}
+
+
+@media (max-width: 800px){
+.flex_1{
+  padding: 0;
+}
+.spinner_box{
+  top: 0;
+}
+.flex_container_1{
+  justify-content: space-around;
+}
