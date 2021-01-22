@@ -29,7 +29,7 @@ body{
   width: 100px;
   margin: 0  auto 0 auto;
   opacity: 0;
-  animation: fadein 3s ease-in 1s 1;
+  animation: fadein 6s ease-in 1s 1;
   animation-fill-mode: forwards;
 }
 .gotobutton:hover{
