@@ -3,13 +3,18 @@ html{
   overflow-y: hidden;
   background-color: black;
 }
-
+a{
+  color: white;
+}
 body{
   margin:0;
   overflow-x: hidden;
   overflow-y: hidden;
+  height: 100vh;
 }
 .flex_container_1{
+  position: relative;
+  top:10%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -47,7 +52,6 @@ body{
 }
 
 .containter{
-  height: 100vh;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -119,7 +123,6 @@ body{
   height: 50px;
   border-radius: 50%;
   border: 1px solid #ffffffa5;
-  background-color: black;
     animation: spin 5s linear 1s infinite;
 }
 
@@ -185,6 +188,9 @@ body{
 .flex_1{
   padding: 0;
 }
+.flex_2{
+  margin-top: 50px;
+}
 .spinner_box{
   top: 0;
 }
@@ -201,8 +207,8 @@ body{
   height: 280px;
 }
 .ring_3{
-  width: 220px;
-  height: 220px;
+  width: 210px;
+  height: 210px;
 }
 .ring_2{
   width: 150px;
@@ -212,37 +218,7 @@ body{
   width: 100px;
   height: 100px;
 }
-.planet{
-  top: -10px;
-  width: 20px;
-  height: 20px;
 
-}
-.suborbit{
-    top: -25px;
-  width: 50px;
-  height: 50px;
-}
-
-.subcenter{
-  width: 20px;
-  height: 20px;
-  top:30%;
-  right:30%;
-}
-
-.subplanet{
-  top:-5px;
-  width: 10px;
-  height: 10px;
-}
-.center{
-  top:22%;
-  height: 60px;
-  width: 60px;
-
-
-}
 
 
 }
