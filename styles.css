@@ -191,3 +191,58 @@ body{
 .flex_container_1{
   justify-content: space-around;
 }
+
+.ring_5{
+  width: 350px;
+  height: 350px;
+}
+.ring_4{
+  width: 280px;
+  height: 280px;
+}
+.ring_3{
+  width: 220px;
+  height: 220px;
+}
+.ring_2{
+  width: 150px;
+  height: 150px;
+}
+.ring_1{
+  width: 100px;
+  height: 100px;
+}
+.planet{
+  top: -10px;
+  width: 20px;
+  height: 20px;
+
+}
+.suborbit{
+    top: -25px;
+  width: 50px;
+  height: 50px;
+}
+
+.subcenter{
+  width: 20px;
+  height: 20px;
+  top:30%;
+  right:30%;
+}
+
+.subplanet{
+  top:-5px;
+  width: 10px;
+  height: 10px;
+}
+.center{
+  top:22%;
+  height: 60px;
+  width: 60px;
+
+
+}
+
+
+}
