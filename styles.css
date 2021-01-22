@@ -1,7 +1,7 @@
 html{
   overflow-x: hidden;
   overflow-y: hidden;
-  background-color: black;
+  background-color: #272727;
 }
 a{
   text-decoration: none;
@@ -19,7 +19,7 @@ body{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: #272727;
 }
 .gotobutton{
   border: 1px solid #ffffffa5;
@@ -52,7 +52,7 @@ body{
 }
 
 .containter{
-  background-color: black;
+  background-color: #272727;
   display: flex;
   justify-content: center;
   align-items: center;
